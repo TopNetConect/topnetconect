@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<component name='log_HTTPTransport' extends='Group'>
+    <interface>
+        <field id='maxLinesBeforeSending' type='integer' value='20' />
+        <field id='maxSecondsBeforeSending' type='integer' value='5' />
+        <field id='url' type='string' value='' />
+        <field id='sendNow' type='boolean' value='false' alwaysNotify='true' onChange='sendLogsNow' />
+        <field id='sendAutomatically' type='boolean' value='true' />
+        <function name='logItem' />
+        <function name='sendLogsNow' />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/roku_modules/log/HTTPTransport.brs" />
+    <script type="text/brightscript" uri="pkg:/source/roku_modules/rokucommunity_bslib/bslib.brs" />
+    <children />
+</component>

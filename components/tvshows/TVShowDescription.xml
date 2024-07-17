@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="TVShowDescription" extends="Group">
+    <interface>
+        <field id="itemContent" type="node" onChange="itemContentChanged" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/tvshows/TVShowDescription.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/misc.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/config.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/session.brs" />
+    <script type="text/brightscript" uri="pkg:/source/migrations.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/conditional.brs" />
+    <script type="text/brightscript" uri="pkg:/source/api/userauth.brs" />
+    <script type="text/brightscript" uri="pkg:/source/api/baserequest.brs" />
+    <script type="text/brightscript" uri="pkg:/source/roku_modules/rokucommunity_bslib/bslib.brs" />
+    <children>
+        <LayoutGroup id="main_group" layoutDirection="horiz" itemSpacings="[15]">
+            <Poster id="tvshowPoster" width="400" height="600" />
+            <LayoutGroup layoutDirection="vert" itemSpacings="[25]">
+                <Label id="title" font="font:LargeBoldSystemFont" />
+                <LayoutGroup layoutDirection="horiz" itemSpacings="[150]">
+                    <Label id="releaseYear" />
+                    <Label id="officialRating" />
+                    <Label id="communityRating" />
+                </LayoutGroup>
+                <Label id="genres" />
+                <ButtonGroupHoriz id="buttons" itemSpacings="[10]">
+                    <Button text="Play" id="play-button" />
+                    <Button text="Shuffle" id="shuffle-button" />
+                    <Button text="Favorite" id="favorite-button" />
+                </ButtonGroupHoriz>
+                <Label id="tagline" />
+                <Label id="overview" wrap="true" width="900" maxLines="4" />
+                <Label id="history" />
+            </LayoutGroup>
+        </LayoutGroup>
+    </children>
+</component>

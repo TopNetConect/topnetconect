@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<component name='log_Log' extends='ContentNode'>
+    <interface>
+        <field id='logLevel' type='integer' value='4' />
+        <field id='isFiltering' type='boolean' value='true' />
+        <field id='enabled' type='boolean' value='true' />
+        <field id='includeFilters' type='assocarray' />
+        <field id='excludeFilters' type='assocarray' />
+        <field id='logMode' type='integer' value='0' />
+        <field id='includeDate' type='boolean' value='false' />
+        <field id='dateText' type='string' value='' />
+        <field id='transportTypes' type='array' />
+        <field id='transports' type='array' />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/roku_modules/log/Log.brs" />
+    <script type="text/brightscript" uri="pkg:/source/roku_modules/rokucommunity_bslib/bslib.brs" />
+</component>

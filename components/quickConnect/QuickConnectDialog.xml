@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="QuickConnectDialog" extends="StandardMessageDialog">
+    <interface>
+        <field id="quickConnectJson" type="assocarray" />
+        <field id="authenticated" type="boolean" alwaysNotify="true" />
+        <field id="saveCredentials" type="boolean" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/quickConnect/QuickConnectDialog.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/session.brs" />
+    <script type="text/brightscript" uri="pkg:/source/migrations.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/misc.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/config.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/conditional.brs" />
+    <script type="text/brightscript" uri="pkg:/source/api/userauth.brs" />
+    <script type="text/brightscript" uri="pkg:/source/api/baserequest.brs" />
+    <script type="text/brightscript" uri="pkg:/source/roku_modules/rokucommunity_bslib/bslib.brs" />
+    <children>
+        <Timer id="quickConnectTimer" duration="3" repeat="false" />
+    </children>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="OptionsSlider" extends="PanelSet">
+    <interface>
+        <field id="buttons" type="nodearray" onChange="setFields" />
+        <field id="options" type="nodearray" onChange="setFields" />
+        <field id="closeSidePanel" type="boolean" alwaysNotify="true" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/options/OptionsSlider.brs" />
+    <script type="text/brightscript" uri="pkg:/source/roku_modules/rokucommunity_bslib/bslib.brs" />
+    <children>
+        <ListPanel id="panel">
+            <Rectangle id="backdrop" translation="[0, 0]" color="#101010DD" width="575" height="1080" />
+            <LabelList id="panelList">
+                <ContentNode id="fieldList" role="content" />
+            </LabelList>
+        </ListPanel>
+    </children>
+</component>
