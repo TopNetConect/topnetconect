@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="JFScene" extends="Scene">
+    <interface>
+        <field id="disableRemote" type="boolean" value="false" onchange="disableRemoteChanged" />
+        <field id="isLoading" type="boolean" value="false" onchange="isLoadingChanged" />
+        <field id="exit" type="boolean" alwaysNotify="true" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/JFScene.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/misc.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/config.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/session.brs" />
+    <script type="text/brightscript" uri="pkg:/source/migrations.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/conditional.brs" />
+    <script type="text/brightscript" uri="pkg:/source/api/userauth.brs" />
+    <script type="text/brightscript" uri="pkg:/source/api/baserequest.brs" />
+    <script type="text/brightscript" uri="pkg:/source/roku_modules/rokucommunity_bslib/bslib.brs" />
+    <children>
+        <Group id="content" />
+        <JFOverhang id="overhang" />
+        <Spinner id="spinner" translation="[897, 477]" visible="false" />
+    </children>
+</component>

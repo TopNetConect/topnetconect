@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="PlayedCheckmark" extends="Rectangle">
+    <script type="text/brightscript" uri="pkg:/components/PlayedCheckmark.brs" />
+    <script type="text/brightscript" uri="pkg:/source/roku_modules/rokucommunity_bslib/bslib.brs" />
+    <children>
+        <Label id="checkmark" width="60" height="50" font="font:MediumBoldSystemFont" horizAlign="center" vertAlign="bottom" text="✓" />
+    </children>
+</component>

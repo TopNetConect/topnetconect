@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="OverviewDialog" extends="StandardDialog">
+    <interface>
+        <field id="Title" type="string" onchange="setTitle" />
+        <field id="Overview" type="string" onChange="setOverview" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/OverviewDialog.brs" />
+    <script type="text/brightscript" uri="pkg:/source/roku_modules/rokucommunity_bslib/bslib.brs" />
+    <children>
+        <StdDlgTitleArea id="titleArea" />
+        <StdDlgContentArea id="contentArea">
+            <StdDlgTextItem id="description" namedTextStyle="normal" />
+        </StdDlgContentArea>
+    </children>
+</component>
