@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="LoadChannelsTask" extends="Task">
+    <interface>
+        <field id="limit" type="integer" value="" />
+        <field id="startIndex" type="integer" value="0" />
+        <field id="filter" type="string" value="All" />
+        <field id="searchTerm" type="string" value="" />
+        <field id="sortField" type="string" value="SortName" />
+        <field id="sortAscending" type="boolean" value="true" />
+        <field id="nameStartsWith" type="string" value="" />
+        <field id="recursive" type="boolean" value="true" />
+        <field id="channels" type="array" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/liveTv/LoadChannelsTask.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/config.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/session.brs" />
+    <script type="text/brightscript" uri="pkg:/source/migrations.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/misc.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/conditional.brs" />
+    <script type="text/brightscript" uri="pkg:/source/api/userauth.brs" />
+    <script type="text/brightscript" uri="pkg:/source/api/baserequest.brs" />
+    <script type="text/brightscript" uri="pkg:/source/roku_modules/rokucommunity_bslib/bslib.brs" />
+</component>

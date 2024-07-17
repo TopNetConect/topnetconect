@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="AlbumTrackList" extends="MarkupList">
+    <interface>
+        <field id="MusicArtistAlbumData" type="assocarray" onChange="getData" />
+        <field id="doneLoading" type="boolean" value="false" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/music/AlbumTrackList.brs" />
+    <script type="text/brightscript" uri="pkg:/source/roku_modules/rokucommunity_bslib/bslib.brs" />
+</component>

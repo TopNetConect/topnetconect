@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="HomeRows" extends="RowList">
+    <interface>
+        <field id="selectedItem" type="node" alwaysNotify="true" />
+        <field id="quickPlayNode" type="node" />
+        <function name="updateHomeRows" />
+        <function name="loadLibraries" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/home/HomeRows.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/misc.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/config.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/session.brs" />
+    <script type="text/brightscript" uri="pkg:/source/migrations.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/conditional.brs" />
+    <script type="text/brightscript" uri="pkg:/source/api/userauth.brs" />
+    <script type="text/brightscript" uri="pkg:/source/api/baserequest.brs" />
+    <script type="text/brightscript" uri="pkg:/source/constants/HomeRowItemSizes.brs" />
+    <script type="text/brightscript" uri="pkg:/source/roku_modules/rokucommunity_bslib/bslib.brs" />
+</component>

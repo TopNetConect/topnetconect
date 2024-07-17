@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="UserSelect" extends="JFGroup">
+    <interface>
+        <field id="itemSelected" type="string" alwaysNotify="true" />
+        <field id="itemContent" type="array" onChange="itemContentChanged" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/login/UserSelect.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/misc.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/config.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/session.brs" />
+    <script type="text/brightscript" uri="pkg:/source/migrations.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/conditional.brs" />
+    <script type="text/brightscript" uri="pkg:/source/api/userauth.brs" />
+    <script type="text/brightscript" uri="pkg:/source/api/baserequest.brs" />
+    <children>
+        <Label text="Please sign in" horizAlign="center" font="font:LargeSystemFont" height="100" width="1920" translation="[0, 200]" />
+        <UserRow id="userRow" translation="[130, 360]" />
+        <LabelList id="alternateOptions" vertFocusAnimationStyle="floatingFocus" textHorizAlign="center" translation="[400,850]" itemSize="[1120,60]" itemSpacing="[0,20]" focusedColor="#EBEBEB" focusBitmapBlendColor="#00a4dcFF" focusFootprintBlendColor="#303030">
+            <ContentNode id="alternate" role="content">
+                <ContentNode title="Manual Login" />
+            </ContentNode>
+        </LabelList>
+    </children>
+</component>
