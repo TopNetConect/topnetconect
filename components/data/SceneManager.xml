@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="SceneManager" extends="Group">
+    <interface>
+        <field id="currentUser" type="string" onChange="updateUser" />
+        <field id="returnData" type="assocarray" />
+        <field id="dataReturned" type="boolean" />
+        <function name="pushScene" />
+        <function name="popScene" />
+        <function name="settings" />
+        <function name="getActiveScene" />
+        <function name="clearScenes" />
+        <function name="clearPreviousScene" />
+        <function name="resetTime" />
+        <function name="userMessage" />
+        <function name="standardDialog" />
+        <function name="radioDialog" />
+        <function name="dismissDialog" />
+        <function name="isDialogOpen" />
+        <function name="optionDialog" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/data/SceneManager.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/misc.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/config.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/session.brs" />
+    <script type="text/brightscript" uri="pkg:/source/migrations.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/conditional.brs" />
+    <script type="text/brightscript" uri="pkg:/source/api/userauth.brs" />
+    <script type="text/brightscript" uri="pkg:/source/api/baserequest.brs" />
+    <script type="text/brightscript" uri="pkg:/source/roku_modules/log/LogMixin.brs" />
+    <script type="text/brightscript" uri="pkg:/source/roku_modules/rokucommunity_bslib/bslib.brs" />
+</component>
