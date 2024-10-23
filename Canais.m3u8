@@ -1,0 +1,64 @@
+
+
+#EXTINF:-1 tvg-id="001" tvg-logo="" group-title="TV ABERTA", Tv Sergipe
+http://168.194.25.245:1923/BZu4mdK2y2GYmtu0otu1/720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="002" tvg-logo="" group-title="TV ABERTA", SBT
+http://168.194.25.245:1923/BZfJAdeY/720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="003" tvg-logo="" group-title="TV ABERTA", Record
+http://168.194.25.245:1923/BZfJAdq/720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="003" tvg-logo="" group-title="TV ABERTA", Rede Tv
+http://168.194.25.245:1923/BZfJAdK/720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="005" tvg-logo="" group-title="TV ABERTA", Band
+http://168.194.25.245:1923/BZfJAde0/720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="006" tvg-logo="" group-title="TV ABERTA", Globo
+http://168.194.25.245:1923/BZfJAdG/720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="007" tvg-logo="" group-title="TV ABERTA", Futura
+http://168.194.25.245:1923/BZfJAdi3/720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="008" tvg-logo="" group-title="TV ABERTA", LMC
+http://168.194.25.245:1923/BZu4mJe1y2GYntC1nZe4/720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="009" tvg-logo="" group-title="TV ABERTA", Rs New Stport
+http://168.194.25.245:1923/BZu4mJe1y2GYmZG1odaW/720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="010" tvg-logo="" group-title="TV ABERTA", Tv Kid's+
+http://168.194.25.245:1923/BZe2mJuWy2GXody4ndeW/720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="011" tvg-logo="" group-title="TV ABERTA", Yupi
+http://168.194.25.245:1923/BZi1nZuZy2GXnZi4odC4/720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="012" tvg-logo="" group-title="TV ABERTA", LMC+
+http://168.194.25.245:1923/BZi1nZuZy2GXnZi4odGX/720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="013" tvg-logo="" group-title="TV ABERTA", Top Filmes
+http://168.194.25.245:1923/BZe2mJq4y2GYmtGZnJy1/720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="014" tvg-logo="" group-title="TV ABERTA", Tv Aparecida
+http://168.194.25.245:1923/BZfJAdiX/720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="015" tvg-logo="" group-title="TV ABERTA", Rede Vida
+http://168.194.25.245:1923/BZfJAde5/720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="016" tvg-logo="" group-title="TV ABERTA", Canção Nova
+http://168.194.25.245:1923/BZfJAde2/720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="017" tvg-logo="" group-title="TV ABERTA", Tv aFolha
+http://168.194.25.245:1923/BZi1nZuZy2GXmdm3nZeZ/720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="018" tvg-logo="" group-title="TV ABERTA", MegaPix
+https://conexao-vs.live/MEGAPIX/index.m3u8
+
+#EXTINF:-1 tvg-id="019" tvg-logo="" group-title="TV Privada", TNT
+https://conexao-vs.live/TNT/index.m3u8
+
+#EXTINF:-1 tvg-id="020" tvg-logo="" group-title="CANAIS DE ESPORTES", SportTv 2
+https://conexao-vs.live/SPORTV2/index.m3u8
+
+#EXTINF:-1 tvg-id="021" tvg-logo="" group-title="CANAIS DE ESPORTES", SportTv 1
+https://conexao-vs.live/SPORTV1/index.m3u8
